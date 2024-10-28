@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <form action="/my-handling-form-page" method="post">
+            <p>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="user_first_name" />
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="user_last_name" />
+            </p>
+            <p>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="user_email" />
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="user_phone" />
+            </p>
+
+            <p>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="user_password" />
+                <label for="confirm-password"> Confirm Password</label>
+                <input type="password" id="confirm-password" name="user_confirm-password" />
+            </p>
+            <p class="button">
+                <button type="submit">Create Account</button>
+            </p>
+        </form>
+        <div class="login">Already have an account? <a href="url">Log in</a></div>
+    </div>
+
+
+</body>
+
+</html>
