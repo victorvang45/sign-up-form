@@ -1,23 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .flex-container {
-    display:flex;
-    top:0;
+    display: flex;
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     flex-direction: row;
-    
+
+
+
 }
 
 .right-side {
-    display:flex;
-    flex-direction: row;
-    align-items: end;
-    width:70vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(245, 244, 244);
+    width: 70vw;
+}
+
+.left-side {
+    width: 30vw;
 }
 
 
@@ -26,13 +33,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30vw;
     height: 100vh;
 
- 
+
 }
 
-.logo {  
+.logo {
     height: 13vh;
 }
 
@@ -44,7 +50,7 @@
     position: relative;
 
     top: 24vh;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,57 +60,97 @@
 
 
 .left-side h1 {
-   
-    color:#E5E7EB;
-    font-size:40px;
+
+    color: #E5E7EB;
+    font-size: 40px;
 }
 
 .legal {
-    position:relative;
-    top:80vh;
+    position: relative;
+    top: 80vh;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    color:#E5E7EB;
-    font-size:15px;
+    color: #E5E7EB;
+    font-size: 15px;
 }
+
 .text {
     display: flex;
     justify-content: left;
     align-items: end;
-    background-color: #E5E7EB;
-    height:30vh;
-
 }
 
 .text p {
     font-size: 25px;
     padding: 50px;
-    padding-left: 60px ;
-}
-
-.form {
-
+    padding-left: 60px;
 }
 
 .login {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    padding: 1.5em;
-    height: 50vh;
-    background-color: #E5E7EB;
+    font-size: 17px;
 }
+
 
 .button {
     margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
     background-color: #596D48;
-    padding:10px 32px;
+
+    padding: 10px 32px;
     border-radius: 8px;
-    border:none;
-    width:200px;
+    border: none;
+    width: 210px;
     font-size: 17px;
     color: #E5E7EB;
+}
+
+.login p {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: white;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    padding-left: 32px;
+    box-shadow: 0.5px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 10px 40px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+input {
+    display: block;
+    width: 200px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.078);
 }
