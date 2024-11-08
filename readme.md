@@ -5,6 +5,5 @@ Things I have learned doing this project\
 --How to use custom font
 
 Live Demo: https://victorvang45.github.io/sign-up-form/ \
-\
 
 
