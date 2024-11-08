@@ -4,6 +4,6 @@ Things I have learned doing this project\
 -- Styling Forms and the input fields\
 --How to use custom font
 
-Live Demo: https://victorvang45.github.io/sign-up-form/ \
+Live Demo: https://victorvang45.github.io/sign-up-form/ 
 
 
